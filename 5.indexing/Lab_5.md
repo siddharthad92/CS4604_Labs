@@ -58,7 +58,9 @@ sqlite> EXPLAIN QUERY PLAN SELECT count(*) FROM big_cards;
 Record output below:
 
 ```
-
+	QUERY PLAN
+	`--SCAN TABLE big_cards
+	Run Time: real 0.001 user 0.000000 sys 0.000000
 ```
 
 #### Using Indexes to improve performance
